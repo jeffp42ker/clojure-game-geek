@@ -14,9 +14,9 @@ Each student effectively cuts-and-pastes code sections into files in their IDE, 
 - Problems or confusion I encountered along the way in my development environment are resolved in the section they were introduced.
 
 
-The development environment used was VS Code/Calva on Windows, remoting via WSL to a Ubuntu 20.04 VM. The server is effectively containerized and required { :host "0.0.0.0" } configuration in order to access http://localhost:8888 from a browser in Windows.
+The development environment used was VS Code/Calva on Windows, remoting via WSL to a Ubuntu 20.04 VM. The server is effectively containerized and required `{:host "0.0.0.0"}` configuration in order to access the GraphiQL IDE at http://localhost:8888 from a browser in Windows.
 
 The current versions of dependencies did not introduce any problems with the tutorial's functioning.
 
 
-[Here](https://github.com/walmartlabs/clojure-game-geek) is the example code prepared by the tutorial author with the commits as he developed it.
+[Here](https://github.com/walmartlabs/clojure-game-geek) is the full source example code the tutorial author prepared with the commits as he developed it.
